@@ -6,7 +6,7 @@ class Drag_Body_To_Location
 		if ( GetGame().IsServer() )
 		{
 
-			//body.SetPosition( position );
+			body.SetPosition( position );
 		}
 		else
 		{
