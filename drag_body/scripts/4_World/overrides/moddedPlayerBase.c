@@ -24,6 +24,6 @@ modded class PlayerBase
 		super.SetActions();
 		
 		AddAction(ActionPullBody);
-		AddAction(ActionPullBodyUncon);
+		//AddAction(ActionPullBodyUncon);
 	}
 }

@@ -65,7 +65,6 @@ class ActionPullBody: ActionContinuousBase
 		//PlayerBase m_Dead_Body = PlayerBase.Cast(action_data.m_Target.GetObject());
 
 		PluginDragBody DragBodyTo = PluginDragBody.Cast( GetPlugin( PluginDragBody ));
-
 		PlayerBase m_Dead_Body = action_data.m_Target.GetObject();
 
 		vector player_location = action_data.m_Player.GetPosition();
