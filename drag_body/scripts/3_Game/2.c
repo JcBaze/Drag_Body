@@ -1,0 +1,4 @@
+enum DBMRPCs
+{
+	RPC_DRAG_BODY;
+}
